@@ -23,7 +23,7 @@
 - Gaile _(a.k.a. codeegoh):_ **14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr**
 - Virghem _(a.k.a. densetsughem):_ **1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm**
 
-<br /><br />
+<br />
 Credits to **Multichain** for the **_Permissioned_ Distributed Ledger Technology (DLT)**:
 - <a href="https://www.multichain.com">Multichain</a><br />
 - <a href="https://github.com/MultiChain/multichain-web-demo">Multichain Web Demo</a><br />
