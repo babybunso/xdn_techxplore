@@ -3,15 +3,15 @@
 ###### Team Name:  
 **Team XDN**
 
-<br />
+
 ###### Challenge:
 **HOW MIGHT WE** use new technologies to provide **_hyper-personalized_** retail experience better?
 
-<br />
+
 ###### Short Description:
 **XDN Coin:** A Permissioned Blockchain-based Platform for Hyper-Personalized Retail Experience
 
-<br />
+
 ###### Long Description:
 _Application of Technology._ Permissioned Blockchain (Multichain), Facial Recognition (Azure Cognitive-Face), Motion and Gesture Recognition (Kinect SDK), Cloud Computing (AWS)
 _Solution._ A Permissioned Blockchain-based Platform (Virtual Mirror, CMS/Dashboard, Permissioned Blockchain Network) for Hyper-Personalized Retail Experience
