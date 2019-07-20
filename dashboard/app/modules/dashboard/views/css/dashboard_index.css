@@ -1,4 +1,28 @@
 #chartContainer1, #chartContainer2,#chartContainer3, #chartContainer4 {
-        width: 40% !important;
+        width: 49% !important;
         margin: 10px 5px 10px 5px;
+        float: left;
+}
+
+#graphs {
+        float:left;
+       /*  width:75%; */
+       width:100%;
+}
+
+#summary {
+        float:left;
+        width:25%;
+        background-color: bisque;
+        height:100vh;
+}
+
+#tables {
+        width: 99%;
+}
+
+.tables_wrapper {
+        width: 100%;
+        margin:10px .5% 20px;
+        clear: both;
 }
