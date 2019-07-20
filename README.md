@@ -5,7 +5,7 @@
 
 
 ###### Challenge:
-**HOW MIGHT WE**(5) use new technologies to provide **_hyper-personalized_** retail experience better?
+**HOW MIGHT WE**<sup>(5)</sup> use new technologies to provide **_hyper-personalized_** retail experience better?
 
 
 ###### Short Description:
