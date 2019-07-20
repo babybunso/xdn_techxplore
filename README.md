@@ -1,5 +1,12 @@
-# Team XDN
-TechXplore Hackathon @ AccenturePH
+# TechXplore Hackathon @ AccenturePH
+
+**Team Name:** Digify
+
+**Challenge:** **HOW MIGHT WE** use new technologies to provide ~~hyper-personalized~~ retail experience better?
+
+**Short Description:** DMS: SNAP Dams Monitoring System
+
+**Long Description:** Monitors SN | Aboitiz Power Dams Rainfalls and Water Level via Weather Station Forecast API
 
 
 Credits to Multichain for the Permissioned Distributed Ledger Technology (DLT):
