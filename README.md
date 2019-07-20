@@ -1,2 +1,2 @@
-# xdn_techxplore
+# Team XDN
 TechXplore Hackathon @ AccenturePH
