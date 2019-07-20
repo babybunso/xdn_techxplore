@@ -1,18 +1,24 @@
 FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY
 
 
-// rodel echo "1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB" | awk '{print tolower($0)}'
+//// rodel echo "1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB" | awk '{print tolower($0)}'
 "1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB", "1uppndql8gkutrsiwaitlkvrwmgtt3rwdmiuxb"
+"personId": "f15a0ae5-cc00-49df-9ca7-38f3c4465448"
+"persistedFaceId": "4a027a18-d273-4a4e-b2f7-d1af0e4fee3a"
 
-// goleng echo "14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr" | awk '{print tolower($0)}'
+//// goleng echo "14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr" | awk '{print tolower($0)}'
 "14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr", "14yzxsrpffzbqdbiymnnhpzvhuszvdc3yhd5pr"
+"personId": "b2bf6b32-b6bb-4e29-8043-bce39deb05cc"
+"persistedFaceId": "87f79398-063e-4dd2-bfe4-326c51b2b685"
 
-// virgem echo "1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm" | awk '{print tolower($0)}'
+//// virgem echo "1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm" | awk '{print tolower($0)}'
 "1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm"  "1nfhsmqjtjamznui2g88uco4ak25smccizcvnm"
+"personId": "13c0746c-5ad2-4885-bb45-31fd9fb1d5de"
+"persistedFaceId": "f58a425c-7b5c-433e-8d58-306db842da34"
+
 
 
 http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750/chains
-
 
 sudo python -m Mce.abe --config dlt_xdn.conf --commit-bytes 100000 --no-serve
 
