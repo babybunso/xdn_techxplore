@@ -9,22 +9,22 @@
 
 
 ###### Short Description:
-**XDN Coin:** A Permissioned Blockchain-based Platform for Hyper-Personalized Retail Experience
+**XDN-DLT:** A Permissioned Blockchain-based Platform for Hyper-Personalized Retail Experience
 
 
 ###### Long Description:
 - **_Application of Technology._** Permissioned Blockchain (Multichain), Motion and Gesture Recognition (Kinect SDK), Cloud Computing (AWS), ~~Facial Recognition (Azure Cognitive-Face)~~
 - **_Solution._** A Permissioned Blockchain-based Platform (XDN Coin, XDN Virtual Mirror, XDN Mobile Wallet (SPV Node), CMS/Dashboard, Permissioned Blockchain Network) for Hyper-Personalized Retail Experience
-- **_Uniqueness._** Unique retail experience for the customers, business owners, merchants, traders, and VCs.
+- **_Uniqueness._** Hyper-Unique (HU), Hyper-Personalized (HP), and Hyper-Customizable (HC) retail experience for the stakeholders *(customers, business owners, merchants, traders, and VCs.)*
 
 <br /><br />
-###### XDN Web Links:
+###### XDN-Web&Network Links:
 - **XDN Blockchain Explorer:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750</a>
 - **XDN Web Demo:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo/">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo</a>
 - **XDN Github Repo:** <a href="https://github.com/babybunso/xdn_techxplore">https://github.com/babybunso/xdn_techxplore</a>
 
 <br /><br />
-###### XDN Wallet Addresses:
+###### XDN-SPV Wallet Addresses:
 - Rodel _(a.k.a. babybunso):_ **1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB**
 - Gaile _(a.k.a. codeegoh):_ **14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr**
 - Virgem _(a.k.a. densetsughem):_ **1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm**
