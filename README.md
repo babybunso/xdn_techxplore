@@ -14,7 +14,7 @@
 
 ###### Long Description:
 - **_Application of Technology._** Permissioned Blockchain (Multichain); Motion and Gesture Recognition (Kinect SDK); Augmented Reality (Vuforia SDK); ~~Facial Recognition (Azure Cognitive-Face)~~; and Cloud Computing (AWS)
-- **_Solution._** A Permissioned Blockchain-based Platform (XDN Coin, XDN Virtual Mirror, XDN Mobile Wallet (SPV Node), CMS/Dashboard, Permissioned Blockchain Network) for Hyper-Personalized Retail Experience
+- **_Solution._** A Permissioned Blockchain-based Platform (XDN Coin, XDN Virtual Mirror, XDN Mobile Wallet (Android and iOS), CMS/Dashboard, Permissioned Blockchain Network) for Hyper-Personalized Retail Experience
 - **_Uniqueness._** Hyper-Unique (HU), Hyper-Personalized (HP), and Hyper-Customizable (HC) retail experience for the stakeholders *(customers, business owners, merchants, traders, and VCs.)*
 
 <br /><br />
