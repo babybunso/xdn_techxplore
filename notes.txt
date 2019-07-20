@@ -1,0 +1,31 @@
+FC8BBr7uBmji49TheQ9NE7rdFaVmauZhGQzSjyjUEhiY
+
+
+// rodel echo "1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB" | awk '{print tolower($0)}'
+"1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB", "1uppndql8gkutrsiwaitlkvrwmgtt3rwdmiuxb"
+
+// goleng echo "14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr" | awk '{print tolower($0)}'
+"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr", "14yzxsrpffzbqdbiymnnhpzvhuszvdc3yhd5pr"
+
+// virgem echo "1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm" | awk '{print tolower($0)}'
+"1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm"  "1nfhsmqjtjamznui2g88uco4ak25smccizcvnm"
+
+
+http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750/chains
+
+
+sudo python -m Mce.abe --config dlt_xdn.conf --commit-bytes 100000 --no-serve
+
+
+https://github.com/babybunso/xdn_techxplore/raw/master/images/rodel.jpg
+"persistedFaceId": "0663267b-af9d-4238-8928-89c8c4cd5e15"
+
+https://github.com/babybunso/xdn_techxplore/raw/master/images/gaile.jpg
+"persistedFaceId": "e0cc4e72-5b4d-40f4-a5cf-ef4b415b4ab3"
+
+https://github.com/babybunso/xdn_techxplore/raw/master/images/virgem.jpg
+"persistedFaceId": "73221678-ccc3-449a-86be-1b9aff9bb6d3"
+
+
+k2:  c31a692e11c24d09a51695dc6943d4ad
+k1:  5441a416f19d4645af5e99611ad55f26
