@@ -26,6 +26,7 @@
 <br /><br />
 ###### XDN Web Links:
 - **XDN Blockchain Explorer:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750</a>
+- **XDN Web Demo:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo/">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo</a>
 
 <br /><br />Credits to **Multichain** for the **_Permissioned_ Distributed Ledger Technology (DLT)**:
 - <a href="https://www.multichain.com">Multichain</a><br />
