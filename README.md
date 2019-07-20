@@ -19,9 +19,9 @@
 
 <br /><br />
 ###### XDN-Web&Network Links:
-- **XDN Blockchain Explorer:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750</a>
-- **XDN Web Demo:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo/">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo</a>
-- **XDN Github Repo:** <a href="https://github.com/babybunso/xdn_techxplore">https://github.com/babybunso/xdn_techxplore</a>
+- **Blockchain Explorer:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750</a>
+- **Web Demo:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo/">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo</a>
+- **Github Repo:** <a href="https://github.com/babybunso/xdn_techxplore">https://github.com/babybunso/xdn_techxplore</a>
 
 <br /><br />
 ###### XDN-SPV Wallet Addresses:
