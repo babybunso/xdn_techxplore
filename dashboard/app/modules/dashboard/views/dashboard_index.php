@@ -12,14 +12,51 @@
 	</div>
 </section> -->
 
+<div class="row col-12">
+	
+</div>
 <div id="graphs">
-	<div id="chartContainer1" style="height: 370px; width: 100%;"></div>
+	
+	<div class="form-group col-4">
+		<!-- <label for="compare_status1">Compare:</label>
+		<select name="compare_status1" id="compare_status1" class="form-control" data-id="1">
+			<option value="" selected="selected"></option>
+			<option value="Merchants">Merchants</option>
+			<option value="Category">Category</option>
+			<option value="Locations">Locations</option>
+			<option value="Gender">Gender</option>
+		</select>
+-->
+		<label for="compare_status2">Date</label> 
+		<input type="date" name="compare_status2" id="compare_status2" class="form-control" data-id="2"  min="2019-07-17" max="2019-07-21" value="2019-07-21" />
+	</div>
+	<div id="chartContainer1" style="height: 370px; width: 100%;" ></div>
 	<div id="chartContainer2" style="height: 370px; width: 100%;"></div>
+
+	<!-- <div class="form-group col-4">
+		<label for="compare_status3">Compare:</label>
+		<select name="compare_status3" id="compare_status3" class="form-control" data-id="3">
+			<option value="" selected="selected"></option>
+			<option value="Merchants">Merchants</option>
+			<option value="Category">Category</option>
+			<option value="Locations">Locations</option>
+			<option value="Gender">Gender</option>
+		</select>
+
+		<label for="compare_status4">And</label>
+		<select name="compare_status4" id="compare_status4" class="form-control" data-id="4">
+			<option value="" selected="selected"></option>
+			<option value="Merchants">Merchants</option>
+			<option value="Category">Category</option>
+			<option value="Locations">Locations</option>
+			<option value="Gender">Gender</option>
+		</select>
+	</div> -->
 	<div id="chartContainer3" style="height: 370px; width: 100%;"></div>
 	<div id="chartContainer4" style="height: 370px; width: 100%;"></div>
 </div>
 <!-- <div id="summary">
-asdadad
+asdadad merchant category gender locations
 </div> -->
 <div class="tables_wrapper">
 	<div id="tables">
