@@ -3,16 +3,21 @@
 ###### Team Name:  
 **Team XDN**
 
+<br />
 ###### Challenge:
 **HOW MIGHT WE** use new technologies to provide **_hyper-personalized_** retail experience better?
 
+<br />
 ###### Short Description:
 **XDN Coin:** A Permissioned Blockchain-based Platform for Hyper-Personalized Retail Experience
 
+<br />
 ###### Long Description:
-**Monitors SN | Aboitiz Power Dams Rainfalls and Water Level via Weather Station Forecast API
+_Application of Technology._ Permissioned Blockchain (Multichain), Facial Recognition (Azure Cognitive-Face), Motion and Gesture Recognition (Kinect SDK), Cloud Computing (AWS)
+_Solution._ A Permissioned Blockchain-based Platform (Virtual Mirror, CMS/Dashboard, Permissioned Blockchain Network) for Hyper-Personalized Retail Experience
+_Uniqueness._ A Permis
 
-
+<br /><br />
 Credits to **Multichain** for the **_Permissioned_ Distributed Ledger Technology (DLT)**:
 - <a href="https://www.multichain.com">Multichain</a><br />
 - <a href="https://github.com/MultiChain/multichain-web-demo">Multichain Web Demo</a><br />
