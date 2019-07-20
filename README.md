@@ -1,12 +1,16 @@
 # TechXplore Hackathon @ AccenturePH
 
-**_Team Name:_ Team XDN**
+###### Team Name:  
+**Team XDN**
 
-**_Challenge:_** <br />**HOW MIGHT WE** use new technologies to provide **_hyper-personalized_** retail experience better?
+###### Challenge:
+**HOW MIGHT WE** use new technologies to provide **_hyper-personalized_** retail experience better?
 
-**_Short Description:_ <br />XDN Coin:** A Permissioned Blockchain-based Platform for Hyper-Personalized Retail Experience
+###### Short Description:
+**XDN Coin:** A Permissioned Blockchain-based Platform for Hyper-Personalized Retail Experience
 
-**_Long Description:_** <br />Monitors SN | Aboitiz Power Dams Rainfalls and Water Level via Weather Station Forecast API
+###### Long Description:
+**Monitors SN | Aboitiz Power Dams Rainfalls and Water Level via Weather Station Forecast API
 
 
 Credits to **Multichain** for the **_Permissioned_ Distributed Ledger Technology (DLT)**:
