@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 0f887323c74dfa84eb6be1a685fae977
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Head
+    100002: Hips
+    100004: LeftArm
+    100006: LeftFoot
+    100008: LeftForeArm
+    100010: LeftHand
+    100012: LeftLeg
+    100014: LeftShoulder
+    100016: LeftToeBase
+    100018: LeftUpLeg
+    100020: M-ifugao belt
+    100022: M-ifugao inner belt
+    100024: M-ifugao necklace
+    100026: M-ifugao palda
+    100028: M-ifugao top
+    100030: M-ifugao-weapon
+    100032: male armature
+    100034: male body_FACE
+    100036: male body_SPLIT_FACE
+    100038: male_hair
+    100040: //RootNode
+    100042: Neck
+    100044: Neck1
+    100046: RightArm
+    100048: RightFoot
+    100050: RightForeArm
+    100052: RightHand
+    100054: RightLeg
+    100056: RightShoulder
+    100058: RightToeBase
+    100060: RightUpLeg
+    100062: Spine
+    100064: Spine1
+    100066: Spine2
+    400000: Head
+    400002: Hips
+    400004: LeftArm
+    400006: LeftFoot
+    400008: LeftForeArm
+    400010: LeftHand
+    400012: LeftLeg
+    400014: LeftShoulder
+    400016: LeftToeBase
+    400018: LeftUpLeg
+    400020: M-ifugao belt
+    400022: M-ifugao inner belt
+    400024: M-ifugao necklace
+    400026: M-ifugao palda
+    400028: M-ifugao top
+    400030: M-ifugao-weapon
+    400032: male armature
+    400034: male body_FACE
+    400036: male body_SPLIT_FACE
+    400038: male_hair
+    400040: //RootNode
+    400042: Neck
+    400044: Neck1
+    400046: RightArm
+    400048: RightFoot
+    400050: RightForeArm
+    400052: RightHand
+    400054: RightLeg
+    400056: RightShoulder
+    400058: RightToeBase
+    400060: RightUpLeg
+    400062: Spine
+    400064: Spine1
+    400066: Spine2
+    2100000: MALE_face
+    2100002: katawan
+    2100004: hair
+    2100006: M-ifugao
+    4300000: male body_FACE
+    4300002: male body_SPLIT_FACE
+    4300004: male_hair
+    4300006: M-ifugao-weapon
+    4300008: M-ifugao necklace
+    4300010: M-ifugao top
+    4300012: M-ifugao inner belt
+    4300014: M-ifugao palda
+    4300016: M-ifugao belt
+    7400000: male armature|Armature|mixamo.com|Layer0
+    7400002: male armature|male armatureAction
+    9500000: //RootNode
+    13700000: M-ifugao belt
+    13700002: M-ifugao inner belt
+    13700004: M-ifugao necklace
+    13700006: M-ifugao palda
+    13700008: M-ifugao top
+    13700010: M-ifugao-weapon
+    13700012: male body_FACE
+    13700014: male body_SPLIT_FACE
+    13700016: male_hair
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

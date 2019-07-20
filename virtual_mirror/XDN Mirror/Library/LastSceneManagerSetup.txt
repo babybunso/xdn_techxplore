@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/XDN Demo/Store Demo/FittingRoom/StoreWall.unity
+  isLoaded: 1
+  isActive: 1
