@@ -1,6 +1,6 @@
 # TechXplore Hackathon @ AccenturePH
 
-**Team Name:** Digify
+## Team Name: Team XDN
 
 **Challenge:** **HOW MIGHT WE** use new technologies to provide ~~hyper-personalized~~ retail experience better?
 
