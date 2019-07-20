@@ -19,9 +19,9 @@
 
 <br /><br />
 ###### Wallet Addresses:
-- Rodel _(a.k.a. babybunso)_: **1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB**
-- Gaile _(a.k.a. codeegoh)_ **14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr**
-- Virghem _(a.k.a. densetsughem)_ **1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm**
+- Rodel _(a.k.a. babybunso):_ **1UppndQL8gKuTRSiwAiTLkvRWMGTt3rWdmiuXB**
+- Gaile _(a.k.a. codeegoh):_ **14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr**
+- Virghem _(a.k.a. densetsughem):_ **1NFHSMqJtJAMznui2G88uCo4Ak25smCCiZCVNm**
 
 <br /><br />
 Credits to **Multichain** for the **_Permissioned_ Distributed Ledger Technology (DLT)**:
