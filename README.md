@@ -13,7 +13,7 @@
 
 
 ###### Long Description:
-- **_Application of Technology._** Permissioned Blockchain (Multichain), Facial Recognition (Azure Cognitive-Face), Motion and Gesture Recognition (Kinect SDK), Cloud Computing (AWS)
+- **_Application of Technology._** Permissioned Blockchain (Multichain), Motion and Gesture Recognition (Kinect SDK), Cloud Computing (AWS), ~~Facial Recognition (Azure Cognitive-Face)~~
 - **_Solution._** A Permissioned Blockchain-based Platform (XDN Coin, XDN Virtual Mirror, XDN Mobile Wallet (SPV Node), CMS/Dashboard, Permissioned Blockchain Network) for Hyper-Personalized Retail Experience
 - **_Uniqueness._** Unique retail experience for the customers, business owners, merchants, traders, and VCs.
 
