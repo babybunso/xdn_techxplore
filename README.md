@@ -13,12 +13,12 @@
 
 
 ###### Long Description:
-- **_Application of Technology._** Permissioned Blockchain (Multichain), Motion and Gesture Recognition (Kinect SDK), Cloud Computing (AWS), ~~Facial Recognition (Azure Cognitive-Face)~~
+- **_Application of Technology._** Permissioned Blockchain (Multichain); Motion and Gesture Recognition (Kinect SDK); Augmented Reality (Vuforia SDK); ~~Facial Recognition (Azure Cognitive-Face)~~; and Cloud Computing (AWS)
 - **_Solution._** A Permissioned Blockchain-based Platform (XDN Coin, XDN Virtual Mirror, XDN Mobile Wallet (SPV Node), CMS/Dashboard, Permissioned Blockchain Network) for Hyper-Personalized Retail Experience
 - **_Uniqueness._** Hyper-Unique (HU), Hyper-Personalized (HP), and Hyper-Customizable (HC) retail experience for the stakeholders *(customers, business owners, merchants, traders, and VCs.)*
 
 <br /><br />
-###### XDN-Web&Network Links:
+###### XDN-Network Web Links and Demos:
 - **Blockchain Explorer:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750</a>
 - **Web Demo:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo/">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo</a>
 - **Github Repo:** <a href="https://github.com/babybunso/xdn_techxplore">https://github.com/babybunso/xdn_techxplore</a>
