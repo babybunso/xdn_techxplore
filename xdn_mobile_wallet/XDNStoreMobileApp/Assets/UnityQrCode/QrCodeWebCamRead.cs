@@ -33,7 +33,7 @@ public class QrCodeWebCamRead : MonoBehaviour
     private Color32[] textureColors;
     private int W, H;
 
-    private Rect screenRect = new Rect(0, 0, Screen.height, Screen.width);
+    private Rect screenRect = new Rect(0, 0, Screen.width, Screen.height);
 
     private bool isQuit;
 
@@ -72,8 +72,9 @@ public class QrCodeWebCamRead : MonoBehaviour
         string deviceName = WebCamTexture.devices[0].name;
         Debug.Log(deviceName);
         camTexture = new WebCamTexture(deviceName);
-        camTexture.requestedHeight =  Screen.height; // 480;
-        camTexture.requestedWidth =  Screen.width; //640;
+        camTexture.requestedHeight =  -Screen.height; // 480;
+        camTexture.requestedWidth =  -Screen.width; //640;
+
         OnEnable();
 
         qrThread = new Thread(DecodeQR);
@@ -84,6 +85,7 @@ public class QrCodeWebCamRead : MonoBehaviour
         if (textureColors == null) {
             textureColors = camTexture.GetPixels32();
         }
+
     }
 
     void DecodeQR() {
@@ -102,8 +104,8 @@ public class QrCodeWebCamRead : MonoBehaviour
 
                 if (result != null) {
                     lastResult = result.Text;
-                    qrResultStr.text = lastResult;
-                    //Debug.Log(result.Text);
+                    qrResultStr.text = result.Text;
+                    Debug.Log(result.Text);
                     if(eventQrCodeRead != null) {
                         eventQrCodeRead(lastResult);
                     }

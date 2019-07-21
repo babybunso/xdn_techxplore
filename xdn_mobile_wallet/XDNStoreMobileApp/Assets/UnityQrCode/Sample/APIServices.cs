@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SimpleJSON;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 public class APIServices : MonoBehaviour
 {
@@ -10,6 +11,53 @@ public class APIServices : MonoBehaviour
     float TIME_OUT = 15.0f;
     private string endpoint = "http://13.250.99.38:7338";
     string responseToken = "";
+    public Text buyResponse;
+    public Text coinAmount;
+
+
+    private void Start()
+    {
+        StartCoroutine(getCoin());   
+    }
+
+    IEnumerator getCoin()
+    {
+        var json = "{\"method\": \"getaddressbalances\",\"params\": [\"14YzXsRpFFzbqDbiyMNnHpZVhUszVdc3YhD5Pr\"],\"id\": \"83307641-1563603597\",\"chain_name\": \"dlt_xdn\"}";
+        var uwr = new UnityWebRequest(endpoint, "POST");
+        byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(json);
+        uwr.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
+        uwr.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
+        uwr.SetRequestHeader("Authorization", "Basic bXVsdGljaGFpbnJwYzpGQzhCQnI3dUJtamk0OVRoZVE5TkU3cmRGYVZtYXVaaEdRelNqeWpVRWhpWQ==");
+        uwr.SetRequestHeader("Content-Type", "application/json");
+        uwr.SetRequestHeader("Content-Type", "application/json");
+
+        //Send the request then wait here until it returns
+        yield return uwr.SendWebRequest();
+
+        if (uwr.isNetworkError)
+        {
+            Debug.Log("Error While Sending: " + uwr.error);
+        }
+        else
+        {
+            Debug.Log("Received: " + uwr.downloadHandler.text);
+            ParseCoinAmount(uwr.downloadHandler.text);
+            
+
+        }
+    }
+
+    void ParseCoinAmount(string queryResult)
+    {
+        JSONNode node = JSON.Parse(queryResult);
+        string userID = node["result"][0]["qty"];
+
+        Debug.Log("UserID: " + userID);
+        
+        coinAmount.text = "Coin Balance : "+ userID;
+    }
+
+    
 
     IEnumerator PostRequest()
     {
@@ -34,6 +82,9 @@ public class APIServices : MonoBehaviour
         else
         {
             Debug.Log("Received: " + uwr.downloadHandler.text);
+            buyResponse.text = "Successfully bought: " + uwr.downloadHandler.text;
+            StartCoroutine(getCoin());
+
         }
     }
     public IEnumerator buyItem()

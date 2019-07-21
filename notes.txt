@@ -37,3 +37,7 @@ k2:  c31a692e11c24d09a51695dc6943d4ad
 k1:  5441a416f19d4645af5e99611ad55f26
 
 "{\"method\":\"getmultibalances\",\"params\":[],\"id\":\"30474978-1563651637\",\"chain_name\":\"dlt_xdn\"}""
+
+https://b365e469.ngrok.io/hackathon2019/xdn-cms/
+u:  densetsu.ghem@gmail.com
+p:  Tamahome16:)

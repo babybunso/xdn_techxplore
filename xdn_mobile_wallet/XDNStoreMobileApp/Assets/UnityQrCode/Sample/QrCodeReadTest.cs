@@ -14,7 +14,7 @@ public class QrCodeReadTest : MonoBehaviour
     {
         qrCodeRead.eventQrCodeRead += (result) => {
             Debug.LogWarning("result: "+result);
-            //qrTextContent.text = result.ToString();
+           // qrTextContent.text = result.ToString();
         };
     }
 
