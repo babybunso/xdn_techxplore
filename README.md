@@ -19,7 +19,7 @@
 
 <br /><br />
 ###### XDN-Network Web Links and Demos:
-- **CMS / Dashboard:** <a href="https://b365e469.ngrok.io/hackathon2019/xdn-cms/">https://b365e469.ngrok.io/hackathon2019/xdn-cms/</a>
+- **CMS / Dashboard:** <a href="https://9e451344.ngrok.io/hackathon2019/xdn-cms/">https://9e451344.ngrok.io/hackathon2019/xdn-cms/</a>
 - **Blockchain Explorer:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com:2750</a>
 - **Web Demo:** <a href="http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo/">http://ec2-13-250-99-38.ap-southeast-1.compute.amazonaws.com/multichain-web-demo</a>
 - **Github Repo:** <a href="https://github.com/babybunso/xdn_techxplore">https://github.com/babybunso/xdn_techxplore</a>
