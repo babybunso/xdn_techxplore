@@ -71,7 +71,7 @@ var merchant_data = [[
         ]              
 ];
 function canvasChart(position, category,sdate) {
-        let title = "";
+        let title = sdate;
         if (category == "Gender") {
              
                 if (sdate == "2019-07-21") {
@@ -159,7 +159,8 @@ function canvasChart(position, category,sdate) {
                 theme: "pie", 
                 backgroundColor: "transparent",
                 title: {
-                        text: category + " " + title
+                        text: category + " " + title,
+                        fontColor: "#4d834d"
                  },
                 data: [{
                         showInLegend: false,
@@ -184,12 +185,19 @@ $(document).ready(function() {
                 let position = 1;
                 let category = "Gender";
                 let sdate = $(this).val();
-                
-                
-                canvasChart(1, "Gender", sdate);
-                canvasChart(2, "Category", sdate);
-                canvasChart(3, "Merchants", sdate);
-                canvasChart(4, "Locations", sdate);
+                let visible = "block";
+                if (sdate == "2019-07-21") visible = "none";
+                for(let a=5; a<=8; a++) {
+                        $("#chartContainer"+ a).css('display', visible);
+                }
+                canvasChart(1, "Gender", "2019-07-21");
+                canvasChart(5, "Gender", sdate);
+                canvasChart(2, "Category",  "2019-07-21");
+                canvasChart(6, "Category", sdate);
+                canvasChart(3, "Merchants", "2019-07-21");
+                canvasChart(7, "Merchants", sdate);
+                canvasChart(4, "Locations",  "2019-07-21");
+                canvasChart(8, "Locations", sdate);
         }); 
 
         /* $("#compare_status1, #compare_status2, #compare_status3, #compare_status4").on('change', function (e) {
@@ -235,9 +243,10 @@ $(document).ready(function(e){
                 animationEnabled: true,
                 theme: "pie", 
                 backgroundColor: "transparent",
-                title: {
-                        text: "Transaction by Gender"
-                },
+                title:{
+                        text: "Transaction by Gender",
+                        fontColor: "#4d834d",
+                      },
                 data: [{
                         showInLegend: false,
                         type: "pie",
@@ -257,7 +266,8 @@ $(document).ready(function(e){
                 theme: "pie", 
                 backgroundColor: "transparent",
                 title: {
-                        text: "Transaction by Category"
+                        text: "Transaction by Category",
+                        fontColor: "#4d834d"
                 },
                 data: [{
                         showInLegend: false,
@@ -282,7 +292,8 @@ $(document).ready(function(e){
                 theme: "pie", 
                 backgroundColor: "transparent",
                 title: {
-                        text: "Transaction by Location"
+                        text: "Transaction by Location",
+                        fontColor: "#4d834d"
                 },
                 data: [{
                         showInLegend: false,
@@ -304,7 +315,8 @@ $(document).ready(function(e){
                 theme: "pie", 
                 backgroundColor: "transparent",
                 title: {
-                        text: "Transaction by Merchants"
+                        text: "Transaction by Merchants",
+                        fontColor: "#4d834d"
                 },
                 data: [{
                         showInLegend: false,

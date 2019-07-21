@@ -18,42 +18,15 @@
 <div id="graphs">
 	
 	<div class="form-group col-4">
-		<!-- <label for="compare_status1">Compare:</label>
-		<select name="compare_status1" id="compare_status1" class="form-control" data-id="1">
-			<option value="" selected="selected"></option>
-			<option value="Merchants">Merchants</option>
-			<option value="Category">Category</option>
-			<option value="Locations">Locations</option>
-			<option value="Gender">Gender</option>
-		</select>
--->
 		<label for="compare_status2">Date</label> 
 		<input type="date" name="compare_status2" id="compare_status2" class="form-control" data-id="2"  min="2019-07-17" max="2019-07-21" value="2019-07-21" />
 	</div>
-	<div id="chartContainer1" style="height: 370px; width: 100%;" ></div>
-	<div id="chartContainer2" style="height: 370px; width: 100%;"></div>
+	<div id="chartContainer1" style="height: 370px; width: 100%;" ></div> <div id="chartContainer5" style="height: 370px; width: 100%; display:none;"></div>
+	<div id="chartContainer2" style="height: 370px; width: 100%;"></div><div id="chartContainer6" style="height: 370px; width: 100%; display:none;"></div>
 
-	<!-- <div class="form-group col-4">
-		<label for="compare_status3">Compare:</label>
-		<select name="compare_status3" id="compare_status3" class="form-control" data-id="3">
-			<option value="" selected="selected"></option>
-			<option value="Merchants">Merchants</option>
-			<option value="Category">Category</option>
-			<option value="Locations">Locations</option>
-			<option value="Gender">Gender</option>
-		</select>
-
-		<label for="compare_status4">And</label>
-		<select name="compare_status4" id="compare_status4" class="form-control" data-id="4">
-			<option value="" selected="selected"></option>
-			<option value="Merchants">Merchants</option>
-			<option value="Category">Category</option>
-			<option value="Locations">Locations</option>
-			<option value="Gender">Gender</option>
-		</select>
-	</div> -->
-	<div id="chartContainer3" style="height: 370px; width: 100%;"></div>
-	<div id="chartContainer4" style="height: 370px; width: 100%;"></div>
+	
+	<div id="chartContainer3" style="height: 370px; width: 100%;"></div><div id="chartContainer7" style="height: 370px; width: 100%; display:none;"></div>
+	<div id="chartContainer4" style="height: 370px; width: 100%;"></div><div id="chartContainer8" style="height: 370px; width: 100%; display:none;"></div>
 </div>
 <!-- <div id="summary">
 asdadad merchant category gender locations
@@ -71,7 +44,8 @@ asdadad merchant category gender locations
 							<thead>
 								<tr>
 									<th class="all">ID</th>
-									<th class="all">Date Received</th>				
+									<th class="all">Date Received</th>	
+									<th class="all">Comment</th>				
 								</tr>
 							</thead>
 							<tbody>
@@ -81,6 +55,7 @@ asdadad merchant category gender locations
 										<tr>
 											<td scope="row"><?php echo $transaction->txid; ?></td>
 											<td><?php echo date("M d, Y h:i A", ($transaction->time)); ?></td>
+											<td><?php echo isset($transaction->comment)? $transaction->comment : ''; ?></td>
 										</tr>
 									<?php
 								endforeach;?>
